@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/cusl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:layout_x="13dp"
+        android:layout_y="16dp" />
+    <EditText
+        android:id="@+id/C_LastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="167dp"
+        android:layout_y="13dp" />
+    <TextView
+        android:id="@+id/cusf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:layout_x="12dp"
+        android:layout_y="62dp" />
+    <EditText
+        android:id="@+id/C_FirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="165dp"
+        android:layout_y="60dp" />
+    <TextView
+        android:id="@+id/cuss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="State"
+        android:layout_x="14dp"
+        android:layout_y="108dp" />
+    <EditText
+        android:id="@+id/C_State"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="164dp"
+        android:layout_y="104dp" />
+    <TextView
+        android:id="@+id/ccity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City"
+        android:layout_x="13dp"
+        android:layout_y="162dp" />
+    <EditText
+        android:id="@+id/C_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="162dp"
+        android:layout_y="150dp" />
+    <TextView
+        android:id="@+id/czip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Zip"
+        android:layout_x="13dp"
+        android:layout_y="215dp" />
+    <EditText
+        android:id="@+id/C_Zip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="161dp"
+        android:layout_y="196dp" />
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone Number"
+        android:layout_x="10dp"
+        android:layout_y="259dp" />
+    <EditText
+        android:id="@+id/C_PhoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="160dp"
+        android:layout_y="240dp" />
+    <TextView
+        android:id="@+id/cage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:layout_x="9dp"
+        android:layout_y="302dp" />
+    <EditText
+        android:id="@+id/C_Age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="159dp"
+        android:layout_y="284dp" />
+    <TextView
+        android:id="@+id/cgender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gender"
+        android:layout_x="9dp"
+        android:layout_y="342dp" />
+    <EditText
+        android:id="@+id/C_Gender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EditText"
+        android:textSize="18sp"
+        android:layout_x="159dp"
+        android:layout_y="330dp" />
+    <Button
+        android:id="@+id/savedata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_x="26dp"
+        android:layout_y="387dp"
+        android:onClick="svaetoDB"/>
+    <Button
+        android:id="@+id/widget49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go Back"
+        android:layout_x="190dp"
+        android:layout_y="388dp"
+        android:onClick="gotopri"/>
+</AbsoluteLayout>

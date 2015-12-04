@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Customerinformation_layout"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Customerinformation_title"
+        android:id="@+id/Customer_title"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/CustomerID_Btn"
+            android:id="@+id/CustomerID"
+            android:textSize="@dimen/customerinformation_fontsize"
+            android:textColorLink="#ff000000"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_CustomerID"
+            android:hint="                  Search by ID         "
+            android:textSize="@dimen/customerinformation_fontsize"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:text="@string/CustomerFirstName"
+            android:textSize="@dimen/customerinformation_fontsize"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_CustomerF"
+            android:hint="  Search by Name  "
+            android:textSize="@dimen/customerinformation_fontsize"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/CustomerLastName"
+            android:text="@string/CustomerLastName"
+            android:textSize="@dimen/customerinformation_fontsize"
+            android:layout_marginLeft="20dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_CustomerL"
+            android:hint="  Search by Name  "
+            android:textSize="@dimen/customerinformation_fontsize"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="@string/Search_Btn"
+        android:id="@+id/SearchBtn"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="-60dp"
+        android:layout_marginTop="40dp"
+        android:onClick="searchCus"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/scrollView2"
+        android:layout_marginBottom="-50dp"
+        android:layout_marginTop="80dp"
+        android:fillViewport="false"
+        android:layout_weight="0.74" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="73dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Edit"
+            android:id="@+id/button"
+            android:onClick="edittable"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Delete"
+            android:id="@+id/button2"
+            android:onClick="delCus"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Add"
+            android:id="@+id/button3"
+            android:onClick="addcus"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BackToMainPage"
+            android:id="@+id/button4"
+            android:onClick="goBackMer"/>
+    </LinearLayout>
+
+</LinearLayout>

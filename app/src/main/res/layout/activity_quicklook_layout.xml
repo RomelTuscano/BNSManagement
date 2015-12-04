@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lookup_title"
+        android:id="@+id/textView2"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"/>
+
+    <Spinner
+        android:layout_width="360dp"
+        android:layout_height="40dp"
+        android:id="@+id/query_spinner"
+        android:layout_gravity="center_horizontal"
+        android:entries="@array/query_array"
+        android:layout_marginBottom="10dp"
+        android:prompt="@string/query_prompt"
+        android:background="@drawable/edittext2"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="@string/showresult_btn"
+        android:id="@+id/showresult_btn"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_default_bg"
+        android:layout_gravity="center_horizontal" />
+
+    <ScrollView
+        android:layout_width="360dp"
+        android:layout_height="345dp"
+        android:id="@+id/lookup_scrollView"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/edittext2"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/goBack_btn"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/button_default_bg"
+        android:id="@+id/goBack_btn" />
+
+</LinearLayout>
